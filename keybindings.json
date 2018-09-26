@@ -1,0 +1,49 @@
+// Platzieren Sie Ihre Tastenzuordnungen in dieser Datei, um die Standardwerte zu überschreiben.
+[
+    {
+        "key": "ctrl+alt+oem_3",
+        "command": "workbench.action.quickOpenTerm"
+    },
+    {
+        "key": "ctrl+alt+t",
+        "command": "markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+k v",
+        "command": "-markdown.showPreviewToSide",
+        "when": "editorLangId == 'markdown'"
+    },
+    {
+        "key": "ctrl+alt+c",
+        "command": "latex-workshop.synctex"
+    },
+    {
+        "key": "alt+x",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+k",
+        "command": "latex-workshop.kill"
+    },
+    {
+        "key": "ctrl+alt+backspace",
+        "command": "notifications.clearAll"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-extension.node-debug.pickLoadedScript",
+        "when": "debugType == 'node2'"
+    },
+    {
+        "key": "ctrl+f4",
+        "command": "-extension.node-debug.pickLoadedScript",
+        "when": "debugType == 'node'"
+    }
+]
